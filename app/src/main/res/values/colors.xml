@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange_200">#FA3A3A</color>
+    <color name="orange_500">#FF0000</color>
+    <color name="orange_700">#B60505</color>
+    <color name="teal_200">#FF0000</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button_color">#FF0000</color>
+
+    <color name="textHeader">#141414</color>
+    <color name="textColorGray">#A4A4A4</color>
+    <color name="dividerColor">#ECECED</color>
+    <color name="blueColor">#0F59D9</color>
+    <color name="darkGray">#141414</color>
+    <color name="backgroundGray">#F2F3F9</color>
+    <color name="lightGray">#F5F5F6</color>
+    <color name="colorButtonGreyBg">#444444</color>
+
+    <!--    Background Colors-->
+    <color name="warning_color">#ECA800</color>
+    <color name="error_color">#D50000</color>
+    <color name="success_color">#17B978</color>
+    <color name="green_color">#00CDAC</color>
+    <color name="info_color">#0340DA</color>
+    <color name="delete_color">#0288D1</color>
+
+
+    <!--    Custom Colors-->
+    <color name="custom_warning_color">#ECA800</color>
+    <color name="custom_error_color">#F44336</color>
+    <color name="custom_success_color">#8BC34A</color>
+    <color name="custom_info_color">#2196F3</color>
+    <color name="custom_delete_color">#673AB7</color>
+    <color name="custom_dark_toast">#121212</color>
+
+    <!--    Graph Colors-->
+    <color name="graph_color1">#FF4C89</color>
+    <color name="graph_color2">#F44336</color>
+    <color name="graph_color3">#8BC34A</color>
+    <color name="graph_color4">#018EFF</color>
+    <color name="graph_color5">#8947FF</color>
+    <color name="graph_color6">#FFEB3B</color>
+
+
+    <!--    Background Transparent Colors-->
+    <color name="warning_bg_color">#33FBC02D</color>
+    <color name="error_bg_color">#33D32F2F</color>
+    <color name="success_bg_color">#3317B978</color>
+    <color name="info_bg_color">#330340DA</color>
+    <color name="delete_bg_color">#330288D1</color>
+
+    <!--    Dark Toast bg-->
+    <color name="dark_bg_color">#2F3032</color>
+
+
+
+
+</resources>

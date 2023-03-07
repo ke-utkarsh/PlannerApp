@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cvNft"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/item_card_background"
+    android:layout_gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+        <LinearLayout
+            android:id="@+id/ll4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="MissingConstraints"
+            android:visibility="gone"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:src="@drawable/ic_baseline_cancel_24"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:text="Remove"/>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_baseline_person_24"
+            app:layout_constraintStart_toEndOf="@id/ll4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toEndOf="@id/ivImage"
+            app:layout_constraintTop_toTopOf="@id/ivImage"
+            app:layout_constraintBottom_toBottomOf="@id/ivImage"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+            <TextView
+                android:id="@+id/tvEidItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextViewStyleLabelSizeMedium16"
+                android:textColor="@color/textHeader"
+                android:text="Employee id: YM1"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="10dp"
+                />
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextViewStyleLabelSizeMedium16"
+                android:textColor="@color/textHeader"
+                android:text="User Name: Rahul"
+                android:layout_marginBottom="4dp"
+                />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

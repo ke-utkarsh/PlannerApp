@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextViewStyleLabelSizeMedium12" parent="android:Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="TextViewStyleLabelSizeMedium16" parent="android:Widget.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="TextViewStyleLabelSizeBold14" parent="android:Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+
+    <style name="TextViewStyleLabelSizeRegular10" parent="android:Widget.TextView">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+
+    </style>
+
+    <style name="TextViewStyleLabelSizeRegular12" parent="android:Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+
+    </style>
+
+    <style name="TextViewStyleLabelSizeRegular14" parent="android:Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextViewStyleLabelSizeRegular16" parent="android:Widget.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextViewStyleLabelSizeRegular18" parent="android:Widget.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextViewStyleLabelSizeRegular20" parent="android:Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextViewStyleLabelSizeRegular22" parent="android:Widget.TextView">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextViewStyleLabelSizeRegular24" parent="android:Widget.TextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextViewStyleLabelSizeRegular26" parent="android:Widget.TextView">
+        <item name="android:textSize">26sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextViewStyleLabelSizeRegular28" parent="android:Widget.TextView">
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextViewStyleLabelSizeRegular30" parent="android:Widget.TextView">
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextViewStyleLabelSizeMedium18" parent="android:Widget.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="TextViewStyleLabelSizeBold18" parent="android:Widget.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+
+    <style name="TextViewStyleLabelSizeSemi12" parent="android:Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+    </style>
+    <style name="TextViewStyleLabelSizeSemi14" parent="android:Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="BottomNavigationView">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextViewStyleValueAppInfo" parent="android:Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="ModalTitleStyle" parent="android:Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="ModalMessageStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="ThemeOverlay.AppCompat.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimAmount">0.7</item>
+        <item name="android:windowMinWidthMinor">85%</item>
+        <!--You can set other style items also, such as animations and etc-->
+    </style>
+
+    <style name="TextViewStyleLabelSizeRegular8" parent="android:Widget.TextView">
+        <item name="android:textSize">8sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="MyTheme" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="colorAccent">#0A79D1</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+
+    </style>
+
+    <style name="CustomAlertDialogStyle">
+        <item name="android:bottomBright">@android:color/transparent</item>
+        <item name="android:bottomDark">@android:color/transparent</item>
+        <item name="android:bottomMedium">@android:color/transparent</item>
+        <item name="android:centerBright">@android:color/transparent</item>
+        <item name="android:centerDark">@android:color/transparent</item>
+        <item name="android:centerMedium">@android:color/transparent</item>
+        <item name="android:fullBright">@android:color/transparent</item>
+        <item name="android:fullDark">@android:color/transparent</item>
+        <item name="android:topBright">@android:color/transparent</item>
+        <item name="android:topDark">@android:color/transparent</item>
+    </style>
+
+    <style name="DialogStyle" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowMinWidthMajor">85%</item>
+        <item name="android:windowMinWidthMinor">85%</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimAmount">0.7</item>
+    </style>
+
+
+    <style name="BlackButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/BlackButtonThemeOverlay</item>
+        <item name="background">@drawable/button_background</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+
+    </style>
+
+    <style name="BlackButtonThemeOverlay">
+        <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="RedButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/RedButtonThemeOverlay</item>
+        <item name="background">@drawable/button_background</item>
+
+    </style>
+
+    <style name="RedButtonThemeOverlay">
+        <item name="colorPrimary">@color/button_color</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="TextViewStyleLabelSizeBold16" parent="android:Widget.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+
+    <style name="TextViewStyleLabelSizeBold12" parent="android:Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+
+    <style name="verticalTextStyle" parent="android:Widget.TextView">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">5sp</item>
+    </style>
+
+    <style name="DialogStyle2" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowMinWidthMajor">85%</item>
+        <item name="android:windowMinWidthMinor">85%</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimAmount">0.7</item>
+    </style>
+
+</resources>

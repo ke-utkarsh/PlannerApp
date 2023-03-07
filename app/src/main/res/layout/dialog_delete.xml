@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:background="@drawable/white_background">
+
+
+        <TextView
+            style="@style/TextViewStyleLabelSizeRegular16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do you want to delete this team?"
+            android:textSize="16sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/textHeader"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="1dp"/>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvCancel"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:background="@drawable/black_cut_background"
+            android:backgroundTint="#FF0000"
+            android:text="Delete"
+            android:textColor="@color/white"
+            style="@style/TextViewStyleLabelSizeRegular16"
+            android:gravity="center"
+            app:layout_constraintEnd_toStartOf="@id/tvSubmit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvSubmit"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:background="@drawable/black_cut_background"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            style="@style/TextViewStyleLabelSizeRegular16"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvCancel"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</layout>
